@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.license     = "LGPL-3.0"
 
   gem.files = Dir[
-    "{app,config,db,lib}/**/*",
+    "{app,lib,cms}/**/*",
     "LICENSE",
     "Rakefile",
     "README.rdoc"
