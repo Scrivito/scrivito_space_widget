@@ -1,7 +1,7 @@
 class SpaceWidget < Widget
 
   def space_size
-    self.space_size || "medium"
+    self.size || "medium"
   end
 
 end

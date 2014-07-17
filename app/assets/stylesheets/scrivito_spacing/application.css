@@ -1,6 +1,9 @@
+hr.widget {
+  border: 0;
+}
+
 hr.widget.medium {
   margin: 20px 0;
-  border: 0;
 }
 
 hr.widget.small {
