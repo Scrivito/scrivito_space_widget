@@ -1,8 +1,9 @@
 class CreateSpaceWidget < ::Scrivito::Migration
   def up
-    create_obj_class(
+    Scrivito::ObjClass.create(
       name: 'SpaceWidget',
       type: 'publication',
+      is_binary: false,
       title: 'SpaceWidget',
       attributes: [
         {:name=>"size", :type=>"enum", values: ["small","medium","large"]},
