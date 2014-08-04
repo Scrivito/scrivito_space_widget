@@ -22,6 +22,9 @@ And then execute:
     $ rake cms:migrate
     $ rake cms:migrate:publish
 
+## Changelog
+See [Changelog](https://github.com/gertimon/scrivito_spacing/blob/master/CHANGELOG.md) for more
+
 ## Contributing
 
 1. Fork it ( https://github.com/infopark/scrivito_spacing/merge_tags/fork )
