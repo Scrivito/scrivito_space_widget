@@ -1,5 +1,9 @@
 # CHANGELOG: Scrivito Spacing
 
+## 1.0.0
+
+* Author to Scrivito
+
 ## 0.0.4
 
 * Use new migration api
