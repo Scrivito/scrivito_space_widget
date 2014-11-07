@@ -1,7 +1,7 @@
 # scrivito_space_widget
 
 [![Gem Version](https://badge.fury.io/rb/scrivito_space_widget.svg)](http://badge.fury.io/rb/scrivito_space_widget)
-[![Code Climate](https://codeclimate.com/github/Scrivito/scrivito_space_widget.png)](https://codeclimate.com/github/Scrivito/scrivito_space_widget)
+[![Code Climate](https://codeclimate.com/github/Scrivito/scrivito_spacing_widget.png)](https://codeclimate.com/github/Scrivito/scrivito_spacing_widget)
 
 A Widget for Scrivito where a space between two widgets can be set by an editor.
 
