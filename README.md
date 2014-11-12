@@ -9,7 +9,7 @@ A Widget for Scrivito where a space between two widgets can be set by an editor.
 
 Add this line to your application's `Gemfile`:
 
-    gem 'space_widget'
+    gem 'scrivito_space_widget'
 
 Add this line to your application Stylesheet manifest:
 
