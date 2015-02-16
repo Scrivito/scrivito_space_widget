@@ -24,7 +24,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency 'bundler'
   gem.add_dependency 'scrivito', '>= 0.30.0'
-  gem.add_dependency 'infopark_crm_connector'
+  gem.add_dependency 'scrivito_advanced_editors'
 
   gem.add_development_dependency 'rake'
 end
