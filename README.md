@@ -10,11 +10,14 @@ A Widget for Scrivito where a space between two widgets can be set by an editor.
 Add this line to your application's `Gemfile`:
 
     gem 'scrivito_space_widget'
-    gem 'scrivito_advanced_editors'
 
 Add this line to your application Stylesheet manifest:
 
-    *= require space_widget/application
+    *= require scrivito_space_widget
+
+Add this line to your application Javascript manifest:
+
+    *= require scrivito_space_widget
 
 And then execute:
 
