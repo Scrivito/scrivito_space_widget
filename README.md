@@ -17,7 +17,7 @@ Add this line to your application Stylesheet manifest:
 
 Add this line to your application Javascript manifest:
 
-    *= require scrivito_space_widget
+    //= require scrivito_space_widget
 
 And then execute:
 
