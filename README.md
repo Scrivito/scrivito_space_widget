@@ -19,13 +19,6 @@ Add this line to your application Javascript manifest:
 
     //= require scrivito_space_widget
 
-And then execute:
-
-    $ bundle
-    $ rake scrivito:migrate:install
-    $ rake scrivito:migrate
-    $ rake scrivito:migrate:publish
-
 ## Changelog
 See [Changelog](https://github.com/Scrivito/scrivito_spacing_widget/blob/master/CHANGELOG.md) for more
 
