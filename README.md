@@ -15,10 +15,6 @@ Add this line to your application Stylesheet manifest:
 
     *= require scrivito_space_widget
 
-Add this line to your application Javascript manifest:
-
-    //= require scrivito_space_widget
-
 ## Changelog
 See [Changelog](https://github.com/Scrivito/scrivito_spacing_widget/blob/master/CHANGELOG.md) for more
 
