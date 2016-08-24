@@ -15,3 +15,17 @@ Add this line to your application Stylesheet manifest:
 ## Customization
 
 We recommend to use [Scrivito Advanced Editors](https://github.com/Scrivito/scrivito_advanced_editors) which provides nicer controls.
+
+## Localization
+
+The following code represents the default localization for English. Copy it to your `en.yml` and change it if necessary:
+
+```yaml
+en:
+  scrivito_space_widget:
+    thumbnail:
+      title: Space
+      description: Adds whitespace between two widgets
+    details:
+      size: Size
+```
