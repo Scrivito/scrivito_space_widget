@@ -1,6 +1,7 @@
 # ScrivitoSpaceWidget
 
 A Scrivito widget for adding an adjustable amount space between two widgets.
+It needs scrivito 1.6.0 at minimum.
 
 ## Installation
 
@@ -28,4 +29,5 @@ en:
       description: Adds whitespace between two widgets
     details:
       size: Size
+      free_size: Free size
 ```
