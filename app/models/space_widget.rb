@@ -1,6 +1,6 @@
 class SpaceWidget < Widget
   attribute :size, :enum, values: ['free','xs-small','small','medium','large','xl-large','xxl-large'], default: 'medium'
-  attribute :free_size, :string
+  attribute :free_size, :string, default: '48px';
 
   def space_free_size
     size == 'free' ? self.free_size : ''
