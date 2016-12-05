@@ -1,6 +1,6 @@
 <hr class="scrivito-space-widget space-widget <%= widget.space_size %>" style="height: <%= widget.space_free_size %>">
 <% if scrivito_in_editable_view? && widget.size == 'free' %>
   <%= scrivito_tag :div, widget, :free_size, class: 'hidden' %>
-  <div class="scrivito-space-widget-handle"></div>
+  <div class="scrivito-space-widget-handle" data-scrivito-space-widget-max-size="<%= ScrivitoSpaceWidget.configuration.max_size %>" data-scrivito-space-widget-min-size="<%= ScrivitoSpaceWidget.configuration.min_size %>" data-scrivito-space-widget-step-size="<%= ScrivitoSpaceWidget.configuration.step_size %>"></div>
   <div class="scrivito-space-widget-size"><%= widget.free_size %></div>
 <% end %>

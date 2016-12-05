@@ -31,3 +31,17 @@ en:
       size: Size
       free_size: Free size
 ```
+
+## Configuration
+
+In an initializer you can define defaults and limits for the free drag mode:
+
+```ruby
+ScrivitoSpaceWidget.configure do |config|
+  config.max_size = "1000"
+  config.min_size = "70"
+  config.step_size = "5"
+  config.default = "free"
+  config.default_free_size = "100"
+end
+```
