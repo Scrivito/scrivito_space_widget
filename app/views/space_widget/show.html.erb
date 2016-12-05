@@ -2,4 +2,5 @@
 <% if scrivito_in_editable_view? && widget.size == 'free' %>
   <%= scrivito_tag :div, widget, :free_size, class: 'hidden' %>
   <div class="scrivito-space-widget-handle"></div>
+  <div class="scrivito-space-widget-size"><%= widget.free_size %></div>
 <% end %>

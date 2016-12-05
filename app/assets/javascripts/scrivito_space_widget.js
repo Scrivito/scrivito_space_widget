@@ -10,6 +10,7 @@
       var cms_field;
       var max_height = 1000;
       var value = widget.height();
+      var size_field = $(drag_handle).next();
 
       $(drag_handle).on('mousedown', function(event) {
         clicked = true;
@@ -20,6 +21,7 @@
         if(clicked) {
           value += event.pageY - pos;
           value = Math.max(0,Math.min(value, max_height))
+          $(size_field).html(value+"px");
           widget.css('height', value+"px");
           pos = event.pageY;
         }
