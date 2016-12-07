@@ -73,6 +73,7 @@ hr.scrivito-space-widget.xxl-large {
 }
 
 [data-scrivito-widget-obj-class="SpaceWidget"]:hover .scrivito-space-widget-handle,
-[data-scrivito-widget-obj-class="SpaceWidget"]:hover .scrivito-space-widget-size {
+[data-scrivito-widget-obj-class="SpaceWidget"]:hover .scrivito-space-widget-size,
+.scrivito-space-widget-handle.moving {
   opacity: 1.0;
 }

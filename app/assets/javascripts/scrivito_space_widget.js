@@ -19,6 +19,7 @@
       $(drag_handle).on('mousedown', function(event) {
         clicked = true;
         pos = event.pageY;
+        $(drag_handle).addClass('moving');
       });
 
       $('body').on('mousemove', function(event) {
@@ -42,6 +43,7 @@
         if(clicked) {
           cms_field.scrivito('save', to_save+'px');
           clicked = false;
+          $(drag_handle).removeClass('moving');
         }
       });
     }
