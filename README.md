@@ -42,6 +42,6 @@ ScrivitoSpaceWidget.configure do |config|
   config.min_size = "70"
   config.step_size = "5"
   config.default = "free"
-  config.default_free_size = "100"
+  config.default_free_size = "100px"
 end
 ```
